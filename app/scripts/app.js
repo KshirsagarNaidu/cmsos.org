@@ -67,7 +67,12 @@ keywords: 'Choice Members Site Owners Society, CMSOS, Society, Cascading Meadows
     .when('/CascadingMeadows_Agm2017', {
       templateUrl: 'views/cascadingMeadows_agm2017.html',
       controller: 'CascadingMeadows_Agm2017_Ctrl',
-      title: 'Cascading Meadows AGM 2017 Info'
+      title: 'Cascading Meadows AGM 2017 Info (Tentative)'
+    })
+    .when('/CascadingMeadows_Agm2017_Final', {
+      templateUrl: 'views/cascadingMeadows_agm2017_final.html',
+      controller: 'CascadingMeadows_Agm2017_Final_Ctrl',
+      title: 'Cascading Meadows AGM 2017 Info (Final)'
     })
     .otherwise({
       redirectTo: '/'
